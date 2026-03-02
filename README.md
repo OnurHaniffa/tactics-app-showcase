@@ -1,6 +1,8 @@
 # WOT Tactics — Professional Esports Tactical Strategy Planner
 
-> **Live:** [tactics-app-seven.vercel.app](https://tactics-app-seven.vercel.app) | **Status:** Complete | **Source Code:** Private
+> **Live:** [tactics-app-seven.vercel.app](https://tactics-app-seven.vercel.app) | **Status:** Frontend Complete (Backend paused) | **Source Code:** Private
+>
+> **Note:** This project was built as a SaaS product but development was paused before full backend deployment. The landing page, canvas editor, animation engine, and all frontend features are fully built. OAuth login (Google, Discord, Twitch) and Supabase backend integration are implemented in the source code but are not active on the live demo.
 
 A production-grade SaaS tactical strategy planner for competitive gaming teams. Users draw animated tactical diagrams on real game maps (22 Squad maps + 17 World of Tanks maps), share strategies with teammates, and collaborate in real-time with live cursor synchronization.
 
@@ -22,7 +24,7 @@ Three-step workflow (Select Map → Draw Strategy → Share with Team) plus the 
 
 ### Authentication System
 ![Login Page](assets/tactics-login.png)
-Custom split-screen login page with Google, Discord, and Twitch OAuth integration, supporting the gaming community's preferred auth providers.
+Custom split-screen login page with Google, Discord, and Twitch OAuth integration, supporting the gaming community's preferred auth providers. *OAuth providers and Supabase Auth are fully implemented in the codebase but not connected on the live preview — development was paused at this stage.*
 
 ---
 
